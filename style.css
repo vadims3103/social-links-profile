@@ -97,20 +97,27 @@ main {
 }
 
 .social-links {
-    list-style: none;
     display: grid;
     gap: 12px;
 }
 
-.social-link {
+.social-links li {
+    list-style: none;
     background-color: var(--grey-700);
     color: var(--white);
-    padding: var(--spacing-150);
     text-align: center;
     border-radius: var(--spacing-100);
 }
 
-.social-link:hover {
+.social-links a {
+    color: #FFFFFF;
+    display: block;
+    padding: var(--spacing-150);
+    border-radius: var(--spacing-100);
+}
+
+.social-links a:hover,
+.social-links a:focus {
     background-color: var(--green);
     color: var(--grey-700);
 }
