@@ -96,13 +96,13 @@ main {
     font-weight: 700;
 }
 
-ul {
+.social-links {
     list-style: none;
     display: grid;
     gap: 12px;
 }
 
-li {
+.social-link {
     background-color: var(--grey-700);
     color: var(--white);
     padding: var(--spacing-150);
@@ -110,7 +110,7 @@ li {
     border-radius: var(--spacing-100);
 }
 
-li:hover {
+.social-link:hover {
     background-color: var(--green);
     color: var(--grey-700);
 }
